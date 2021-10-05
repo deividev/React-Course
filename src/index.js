@@ -6,13 +6,14 @@ import reportWebVitals from './reportWebVitals';
 
 //Components
 import Article from './components/article/Article';
-import Hidrogeno from './components/hidrogeno/Hidrogeno';
+import Bitcoin from './components/bitcoin/Bitcoin';
+
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
     <Article />
-    <Hidrogeno />
+    <Bitcoin />
   </React.StrictMode>,
   document.getElementById('root')
 );
