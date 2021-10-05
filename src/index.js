@@ -6,11 +6,13 @@ import reportWebVitals from './reportWebVitals';
 
 //Components
 import Article from './components/article/Article';
+import Hidrogeno from './components/hidrogeno/Hidrogeno';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
     <Article />
+    <Hidrogeno />
   </React.StrictMode>,
   document.getElementById('root')
 );
