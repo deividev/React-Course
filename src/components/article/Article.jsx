@@ -5,12 +5,19 @@ import Title from '../title/Title';
 import Autonomia from '../autonomia/Autonomia';
 import Hidrogeno from '../hidrogeno/Hidrogeno';
 import ButtonLikes from '../buttonLikes/ButtonLikes';
-
+import Bitcoin from '../bitcoin/Bitcoin';
+const container = {
+  'display': 'flex',
+  'flex-direction': 'column',
+  'align-items': 'center',
+  'padding': 20
+}
 class Article extends Component {
+  
   
     render() {
       return (
-        <div >
+        <div style={ container }>
           <Title title='PilasConvencionales' />
           <p>
             A pesar del auge de las energias renovables, 
@@ -25,6 +32,7 @@ class Article extends Component {
           <Autonomia km={500}/>
           <Hidrogeno />
           <ButtonLikes />
+          <Bitcoin />
         </div>
       )
     }
